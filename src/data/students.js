@@ -1,0 +1,48 @@
+const students = [
+  {
+    id: "s1",
+    name: "Aisha Khan",
+    department: "Computer Science",
+    attendance: 78,
+    grades: 6.5,
+    riskLevel: "High",
+    riskScore: 86,
+    riskFactors: ["Low attendance", "Missing assignments", "Poor midterm"],
+    lastIntervention: { date: "2025-11-12", notes: "Mentor call - study plan" },
+  },
+  {
+    id: "s2",
+    name: "Rohan Verma",
+    department: "Mechanical",
+    attendance: 88,
+    grades: 7.4,
+    riskLevel: "Medium",
+    riskScore: 64,
+    riskFactors: ["Late submissions", "Low lab scores"],
+    lastIntervention: { date: "2025-10-09", notes: "Counseling referral" },
+  },
+  {
+    id: "s3",
+    name: "Maya Patel",
+    department: "Electronics",
+    attendance: 95,
+    grades: 8.9,
+    riskLevel: "Low",
+    riskScore: 22,
+    riskFactors: ["None significant"],
+    lastIntervention: { date: "2025-08-21", notes: "N/A" },
+  },
+  {
+    id: "s4",
+    name: "Karan Singh",
+    department: "Civil",
+    attendance: 70,
+    grades: 6.1,
+    riskLevel: "High",
+    riskScore: 81,
+    riskFactors: ["Multiple absences", "Low assignment scores"],
+    lastIntervention: { date: "2025-09-05", notes: "Peer tutoring arranged" },
+  },
+];
+
+export default students;
